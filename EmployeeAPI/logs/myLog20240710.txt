@@ -1,0 +1,75 @@
+2024-07-10 13:15:29.887 +05:30 [INF] Starting application...
+2024-07-10 13:15:31.423 +05:30 [INF] Now listening on: https://localhost:7168
+2024-07-10 13:15:31.430 +05:30 [INF] Now listening on: http://localhost:5296
+2024-07-10 13:15:31.436 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-10 13:15:31.458 +05:30 [INF] Hosting environment: Development
+2024-07-10 13:15:31.466 +05:30 [INF] Content root path: C:\Users\dhivesh.d\source\repos\EmployeeAPI\EmployeeAPI
+2024-07-10 13:15:32.076 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7168/swagger/index.html - null null
+2024-07-10 13:15:32.363 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7168/swagger/index.html - 200 null text/html;charset=utf-8 300.4568ms
+2024-07-10 13:15:32.363 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7168/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-10 13:15:32.371 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7168/_vs/browserLink - null null
+2024-07-10 13:15:32.395 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7168/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 32.0689ms
+2024-07-10 13:15:32.443 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7168/_vs/browserLink - 200 null text/javascript; charset=UTF-8 72.1443ms
+2024-07-10 13:15:32.467 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7168/swagger/v1/swagger.json - null null
+2024-07-10 13:15:32.801 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7168/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 334.2259ms
+2024-07-10 13:15:38.752 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7168/api/Employee - null null
+2024-07-10 13:15:38.774 +05:30 [INF] Executing endpoint 'EmployeeAPI.Controllers.EmployeeController.getEmployee (EmployeeAPI)'
+2024-07-10 13:15:38.832 +05:30 [INF] Route matched with {action = "getEmployee", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[EmployeeAPI.Models.Employee]]] getEmployee() on controller EmployeeAPI.Controllers.EmployeeController (EmployeeAPI).
+2024-07-10 13:15:41.025 +05:30 [INF] Executed DbCommand (59ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Designation], [e].[Email], [e].[FirstName], [e].[LastName]
+FROM [Employees] AS [e]
+2024-07-10 13:15:41.171 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeAPI.Models.Employee, EmployeeAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-07-10 13:15:41.208 +05:30 [INF] Executed action EmployeeAPI.Controllers.EmployeeController.getEmployee (EmployeeAPI) in 2362.453ms
+2024-07-10 13:15:41.211 +05:30 [INF] Executed endpoint 'EmployeeAPI.Controllers.EmployeeController.getEmployee (EmployeeAPI)'
+2024-07-10 13:15:41.223 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7168/api/Employee - 200 1609 application/xml; charset=utf-8 2470.7676ms
+2024-07-10 14:44:06.048 +05:30 [INF] Starting application...
+2024-07-10 14:44:07.901 +05:30 [INF] Now listening on: https://localhost:7168
+2024-07-10 14:44:07.937 +05:30 [INF] Now listening on: http://localhost:5296
+2024-07-10 14:44:07.944 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-10 14:44:07.947 +05:30 [INF] Hosting environment: Development
+2024-07-10 14:44:07.953 +05:30 [INF] Content root path: C:\Users\dhivesh.d\source\repos\EmployeeAPI\EmployeeAPI
+2024-07-10 14:44:08.377 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7168/swagger/index.html - null null
+2024-07-10 14:44:08.736 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7168/swagger/index.html - 200 null text/html;charset=utf-8 365.843ms
+2024-07-10 14:44:08.748 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7168/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-10 14:44:08.748 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7168/_vs/browserLink - null null
+2024-07-10 14:44:08.771 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7168/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 22.9702ms
+2024-07-10 14:44:08.824 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7168/_vs/browserLink - 200 null text/javascript; charset=UTF-8 75.8133ms
+2024-07-10 14:44:08.853 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7168/swagger/v1/swagger.json - null null
+2024-07-10 14:44:09.126 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7168/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 272.9909ms
+2024-07-10 14:44:18.621 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7168/api/Employee - null null
+2024-07-10 14:44:18.638 +05:30 [INF] Executing endpoint 'EmployeeAPI.Controllers.EmployeeController.getEmployee (EmployeeAPI)'
+2024-07-10 14:44:18.672 +05:30 [INF] Route matched with {action = "getEmployee", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[EmployeeAPI.Models.Employee]]] getEmployee() on controller EmployeeAPI.Controllers.EmployeeController (EmployeeAPI).
+2024-07-10 14:44:19.991 +05:30 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Designation], [e].[Email], [e].[FirstName], [e].[LastName]
+FROM [Employees] AS [e]
+2024-07-10 14:44:20.056 +05:30 [INF] Employee Details: [{"Id":1,"FirstName":"Dhivesh","LastName":"Danny","Designation":"SDE","Email":"danny@test.com","$type":"Employee"},{"Id":2,"FirstName":"Sarah","LastName":"Fuller","Designation":"SDE","Email":"sarah@test.com","$type":"Employee"},{"Id":3,"FirstName":"Morgan","LastName":"Freeman","Designation":"Manager","Email":"mfreeman@test.com","$type":"Employee"},{"Id":4,"FirstName":"Paul","LastName":"Goodman","Designation":"Project manager","Email":"paul@test.com","$type":"Employee"},{"Id":5,"FirstName":"Ken","LastName":"Rosenberg","Designation":"BA","Email":"kenrose@test.com","$type":"Employee"},{"Id":6,"FirstName":"Hunter","LastName":"Helmsley","Designation":"CEO","Email":"hunter@test.com","$type":"Employee"},{"Id":7,"FirstName":"Sam","LastName":"Anton","Designation":"CA","Email":"sam@test.com","$type":"Employee"},{"Id":1004,"FirstName":"SInghar","LastName":"Singh","Designation":"SDE","Email":"ssingh@test.com","$type":"Employee"},{"Id":1005,"FirstName":"XML","LastName":"Data","Designation":"CA","Email":"xml@test.com","$type":"Employee"},{"Id":1006,"FirstName":"Rishi","LastName":"Rashed","Designation":"CTO","Email":"rishi@test.com","$type":"Employee"}]
+2024-07-10 14:44:20.106 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeAPI.Models.Employee, EmployeeAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-07-10 14:44:20.134 +05:30 [INF] Executed action EmployeeAPI.Controllers.EmployeeController.getEmployee (EmployeeAPI) in 1440.4018ms
+2024-07-10 14:44:20.137 +05:30 [INF] Executed endpoint 'EmployeeAPI.Controllers.EmployeeController.getEmployee (EmployeeAPI)'
+2024-07-10 14:44:20.144 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7168/api/Employee - 200 1609 application/xml; charset=utf-8 1523.4101ms
+2024-07-10 14:54:23.555 +05:30 [INF] Starting application...
+2024-07-10 14:54:25.135 +05:30 [INF] Now listening on: https://localhost:7168
+2024-07-10 14:54:25.145 +05:30 [INF] Now listening on: http://localhost:5296
+2024-07-10 14:54:25.148 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-10 14:54:25.152 +05:30 [INF] Hosting environment: Development
+2024-07-10 14:54:25.154 +05:30 [INF] Content root path: C:\Users\dhivesh.d\source\repos\EmployeeAPI\EmployeeAPI
+2024-07-10 14:54:25.718 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7168/swagger/index.html - null null
+2024-07-10 14:54:26.059 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7168/swagger/index.html - 200 null text/html;charset=utf-8 347.6061ms
+2024-07-10 14:54:26.077 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7168/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-10 14:54:26.077 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7168/_vs/browserLink - null null
+2024-07-10 14:54:26.107 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7168/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 30.126ms
+2024-07-10 14:54:26.177 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7168/_vs/browserLink - 200 null text/javascript; charset=UTF-8 99.9714ms
+2024-07-10 14:54:26.216 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7168/swagger/v1/swagger.json - null null
+2024-07-10 14:54:26.669 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7168/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 452.9533ms
+2024-07-10 14:54:30.210 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7168/api/Employee - null null
+2024-07-10 14:54:30.243 +05:30 [INF] Executing endpoint 'EmployeeAPI.Controllers.EmployeeController.getEmployee (EmployeeAPI)'
+2024-07-10 14:54:30.279 +05:30 [INF] Route matched with {action = "getEmployee", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[EmployeeAPI.Models.Employee]]] getEmployee() on controller EmployeeAPI.Controllers.EmployeeController (EmployeeAPI).
+2024-07-10 14:54:32.545 +05:30 [INF] Executed DbCommand (137ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Designation], [e].[Email], [e].[FirstName], [e].[LastName]
+FROM [Employees] AS [e]
+2024-07-10 14:54:32.869 +05:30 [INF] Employee Details: [{"Id":1,"FirstName":"Dhivesh","LastName":"Danny","Designation":"SDE","Email":"danny@test.com","$type":"Employee"},{"Id":2,"FirstName":"Sarah","LastName":"Fuller","Designation":"SDE","Email":"sarah@test.com","$type":"Employee"},{"Id":3,"FirstName":"Morgan","LastName":"Freeman","Designation":"Manager","Email":"mfreeman@test.com","$type":"Employee"},{"Id":4,"FirstName":"Paul","LastName":"Goodman","Designation":"Project manager","Email":"paul@test.com","$type":"Employee"},{"Id":5,"FirstName":"Ken","LastName":"Rosenberg","Designation":"BA","Email":"kenrose@test.com","$type":"Employee"},{"Id":6,"FirstName":"Hunter","LastName":"Helmsley","Designation":"CEO","Email":"hunter@test.com","$type":"Employee"},{"Id":7,"FirstName":"Sam","LastName":"Anton","Designation":"CA","Email":"sam@test.com","$type":"Employee"},{"Id":1004,"FirstName":"SInghar","LastName":"Singh","Designation":"SDE","Email":"ssingh@test.com","$type":"Employee"},{"Id":1005,"FirstName":"XML","LastName":"Data","Designation":"CA","Email":"xml@test.com","$type":"Employee"},{"Id":1006,"FirstName":"Rishi","LastName":"Rashed","Designation":"CTO","Email":"rishi@test.com","$type":"Employee"}]
+2024-07-10 14:54:33.863 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeAPI.Models.Employee, EmployeeAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-07-10 14:54:34.019 +05:30 [INF] Executed action EmployeeAPI.Controllers.EmployeeController.getEmployee (EmployeeAPI) in 3726.4556ms
+2024-07-10 14:54:34.188 +05:30 [INF] Executed endpoint 'EmployeeAPI.Controllers.EmployeeController.getEmployee (EmployeeAPI)'
+2024-07-10 14:54:34.195 +05:30 [INF] HTTP GET /api/Employee responded 200 in 3954.8044 ms
+2024-07-10 14:54:34.406 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7168/api/Employee - 200 1609 application/xml; charset=utf-8 4196.733ms

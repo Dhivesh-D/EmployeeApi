@@ -1,0 +1,14 @@
+2024-07-12 17:24:50.827 +05:30 [INF] Starting application...
+2024-07-12 17:24:52.470 +05:30 [INF] Now listening on: https://localhost:7168
+2024-07-12 17:24:52.475 +05:30 [INF] Now listening on: http://localhost:5296
+2024-07-12 17:24:52.478 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-12 17:24:52.480 +05:30 [INF] Hosting environment: Development
+2024-07-12 17:24:52.481 +05:30 [INF] Content root path: C:\Users\dhivesh.d\source\repos\EmployeeAPI\EmployeeAPI
+2024-07-12 17:24:54.210 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7168/swagger/index.html - null null
+2024-07-12 17:24:54.854 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7168/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-12 17:24:54.883 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7168/_vs/browserLink - null null
+2024-07-12 17:24:54.915 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7168/swagger/index.html - 200 null text/html;charset=utf-8 704.2851ms
+2024-07-12 17:24:54.945 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7168/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 90.52ms
+2024-07-12 17:24:55.071 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7168/_vs/browserLink - 200 null text/javascript; charset=UTF-8 188.9935ms
+2024-07-12 17:24:55.111 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7168/swagger/v1/swagger.json - null null
+2024-07-12 17:24:55.566 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7168/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 456.1415ms
